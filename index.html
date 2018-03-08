@@ -19,7 +19,7 @@
   <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="css/grayscale.min.css" rel="stylesheet">
+  <link href="css/grayscale.css" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115358674-1"></script>
@@ -68,11 +68,11 @@
     <div class="intro-body">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
+          <div class="intro-div col-lg-8 mx-auto">
             <h1 class="brand-heading" style="font-family: Copperplate, 'Copperplate Gothic Light', fantasy;text-transform: capitalize;">Greynetic</h1>
             <p class="intro-text">Une équipe d'élèves-ingénieurs pour tous vos besoins en machine learning.</p>
-            <a href="#about" class="btn btn-circle js-scroll-trigger">
-              <i class="fa fa-angle-double-down animated"></i>
+            <a href="#about" class="border-black btn btn-circle js-scroll-trigger">
+              <i class="fa fa-angle-double-down animated color-black"></i>
             </a>
           </div>
         </div>
@@ -105,44 +105,54 @@
     <br>
     <div class="container">
       <div class="d-sm-flex justify-content-around bd-highlight">
-        <div class="p-2 bd-highlight">
-          <img src="./img/portraits/sebastien.jpg" class="p-2 bd-highlight rounded-circle" alt="Sebastien Septier">
-          <div class="card-body">
-            <h5 class="card-title">Sebastien Septier</h5>
-            <p class="card-text">Chef de projet</p>
-          </div>
+        <div class="portrait p-2 bd-highlight">
+          <a href="https://www.linkedin.com/in/sseptier/" target="_blank">
+            <img src="./img/portraits/sebastien.jpg" class="p-2 bd-highlight rounded-circle" alt="Sebastien Septier">
+            <div class="card-body">
+              <h5 class="card-title">Sebastien Septier</h5>
+              <p class="card-text">Chef de projet</p>
+            </div>
+          </a>
         </div>
-        <div class="p-2 bd-highlight">
-          <img src="./img/portraits/theo.jpg" class="p-2 bd-highlight rounded-circle" alt="Théo Poiré">
-          <div class="card-body">
-            <h5 class="card-title">Théo Poiré</h5>
-            <p class="card-text">Chargé de communication</p>
-          </div>
+        <div class="portrait p-2 bd-highlight">
+          <a href="http://linkedin.com/in/th%C3%A9o-poir%C3%A9-442194129" target="_blank">
+            <img src="./img/portraits/theo.jpg" class="p-2 bd-highlight rounded-circle" alt="Théo Poiré">
+            <div class="card-body">
+              <h5 class="card-title">Théo Poiré</h5>
+              <p class="card-text">Chargé de communication</p>
+            </div>
+          </a>
         </div>
-        <div class="p-2 bd-highlight">
-          <img src="./img/portraits/quentin.jpg" class="p-2 bd-highlight rounded-circle" alt="Quentin Golliot">
-          <div class="card-body">
-            <h5 class="card-title">Quentin Golliot</h5>
-            <p class="card-text">Secrétaire général</p>
-          </div>
+        <div class="portrait p-2 bd-highlight">
+          <a href="https://www.linkedin.com/in/quentin-golliot-37b106122/" target="_blank">
+            <img src="./img/portraits/quentin.jpg" class="p-2 bd-highlight rounded-circle" alt="Quentin Golliot">
+            <div class="card-body">
+              <h5 class="card-title">Quentin Golliot</h5>
+              <p class="card-text">Secrétaire général</p>
+            </div>
+          </a>
         </div>
       </div>
       <div class="d-sm-flex justify-content-around bd-highlight">
-        <div class="p-2 bd-highlight">
-          <img src="./img/portraits/etienne.png" class="p-2 bd-highlight rounded-circle" alt="Etienne Wiscart">
-          <div class="card-body">
-            <h5 class="card-title">Etienne Wiscart</h5>
-            <p class="card-text">Responsable technique</p>
-          </div>
+        <div class="portrait p-2 bd-highlight">
+          <a href="https://www.linkedin.com/in/etienne-wiscart-629087133/" target="_blank">
+            <img src="./img/portraits/etienne.png" class="p-2 bd-highlight rounded-circle" alt="Etienne Wiscart">
+            <div class="card-body">
+              <h5 class="card-title">Etienne Wiscart</h5>
+              <p class="card-text">Responsable technique</p>
+            </div>
+          </a>
         </div>
-        <div class="p-2 bd-highlight">
-          <img src="./img/portraits/pierre.png" class="p-2 bd-highlight rounded-circle" alt="Pierre Roussel">
-          <div class="card-body">
-            <h5 class="card-title">Pierre Roussel</h5>
-            <p class="card-text">Responsable technique</p>
-          </div>
+        <div class="portrait p-2 bd-highlight">
+          <a href="https://www.linkedin.com/in/pierre-roussel/" target="_blank">
+            <img src="./img/portraits/pierre.png" class="p-2 bd-highlight rounded-circle" alt="Pierre Roussel">
+            <div class="card-body">
+              <h5 class="card-title">Pierre Roussel</h5>
+              <p class="card-text">Responsable technique</p>
+            </div>
+          </a>
         </div>
-        <div class="p-2 bd-highlight">
+        <div class="portrait p-2 bd-highlight">
           <img src="./img/portraits/pierre-claude.png" class="p-2 bd-highlight rounded-circle" alt="Pierre-Claude Grimal">
           <div class="card-body">
             <h5 class="card-title">Pierre-Claude Grimal</h5>
@@ -166,6 +176,9 @@
             Ne cherchez plus, nous sommes là ! Contactez-nous :
             <a href="mailto:contact@greynetic.tech"> contact@greynetic.tech </a>
           </p>
+          <p>
+            <i class="fa fa-mobile-phone"> 06 42 52 62 26 </i>
+          </p>
           <ul class="list-inline banner-social-buttons">
             <li class="list-inline-item">
               <a href="mailto:contact@greynetic.tech" class="btn btn-default btn-lg">
@@ -180,7 +193,7 @@
   <!-- Footer -->
   <footer>
     <div class="container text-center">
-      <img src="./img/logo-blanc.png" width="150px">
+      <img src="./img/logo-noir.png" width="150px">
       <img src="./img/logo-ig2i.png" width="150px">
       <p>Copyright &copy; Greynetic 2018</p>
     </div>
