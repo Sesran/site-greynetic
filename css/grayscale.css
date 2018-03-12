@@ -227,4 +227,8 @@ img::-moz-selection {
 .border-black {
   border-color: black; }
 
-/*# sourceMappingURL=grayscale.min.css.map */
+.skills-section {
+  background-color: #0e0e0e;
+  color: white; }
+
+/*# sourceMappingURL=grayscale.css.map */
