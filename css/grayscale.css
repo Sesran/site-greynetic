@@ -231,4 +231,26 @@ img::-moz-selection {
   background-color: #0e0e0e;
   color: white; }
 
+.splication {
+  width: 300px;
+  box-shadow: lightgray 0px 1px 1px;
+  margin: 20px; }
+  .splication img {
+    margin-bottom: 20px; }
+  .splication h3 {
+    height: 35px; }
+  .splication p {
+    color: #5e5e5e;
+    margin-bottom: 0em; }
+  .splication ul {
+    margin: auto;
+    max-width: 200px;
+    margin-bottom: 10px;
+    font-size: 11pt; }
+    .splication ul li {
+      text-align: justify; }
+
+.marge-bot {
+  margin-bottom: 25px; }
+
 /*# sourceMappingURL=grayscale.css.map */

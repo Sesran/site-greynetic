@@ -315,3 +315,36 @@ img::-moz-selection {
   background-color: #0e0e0e;
   color: white;
 }
+
+.splication {
+  width: 300px;
+  box-shadow: lightgray 0px 1px 1px;
+  margin: 20px;
+  img {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    height: 35px;
+  }
+
+  p {
+    color:#5e5e5e;
+    margin-bottom: 0em;
+  }
+
+  ul {
+    margin: auto;
+    max-width: 200px;
+    margin-bottom: 10px;
+    font-size: 11pt;
+
+    li {
+      text-align: justify;
+    }
+  }
+}
+
+.marge-bot {
+  margin-bottom: 25px;
+}
