@@ -252,7 +252,7 @@
                 <div class="col splication custom">
                   <div class="custom_img">
                     <span class="helper"></span>
-                      <img src="./img/images.png" width="200px" style="vertical-align: middle">
+                      <img class="zoom" src="./img/images.png" width="200px" style="vertical-align: middle">
                   </div>
                   <p>
                     Créée à Lens en 1992, la formation IG2I de Centrale Lille, délivre le diplôme de l'Ecole Centrale de Lille, en spécialité génie Informatique et Industriel, reconnu par la CTI.
@@ -261,7 +261,7 @@
                 <div class="col splication custom">
                   <div class="custom_img">
                     <span class="helper"></span>
-                      <img src="./img/plaquette.png" width="200px" style="vertical-align: middle">
+                      <img class="zoom" src="./img/plaquette.png" width="200px" style="vertical-align: middle">
                   </div>
                   <p>
                     5 années de formation : soit 3 années de tronc commun et 2 années de spécialisation en Ingénierie des Systemes Industriels Innovants ou en Systèmes d'Information. 
@@ -271,7 +271,7 @@
                 <div class="col splication custom">
                     <div class="custom_img">
                       <span class="helper"></span>
-                        <img src="./img/stage.PNG" width="200px" style="vertical-align: middle">
+                        <img class="zoom" src="./img/stage.PNG" width="200px" style="vertical-align: middle">
                     </div>
                     <p>
                         L’IG2I prévoit des incursions régulières dans le monde de l’entreprise : les périodes de stages sont indispensables pour 
@@ -315,6 +315,21 @@
       </div>
     </div>
   </section>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <!-- <span class="close">&times;</span> -->
+  
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="imgModal">
+  
+    <!-- Modal Caption (Image Text) -->
+    <!-- <div id="caption"></div> -->
+  </div>
+
+
   <!-- Footer -->
   <footer>
     <div class="container text-center">
@@ -330,9 +345,11 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+  <script src="js/zoom.js"></script>
 
 </body>
 
