@@ -21,8 +21,12 @@ img.on("click", function(){
 
 
 // When the user clicks on <span> (x), close the modal
-modalImg.on('click',function(){
+modal.on('click',function(){
     modal.css("display","none");
+});
+
+modalImg.on('click', function(e){
+    e.stopPropagation();
 });
 
 

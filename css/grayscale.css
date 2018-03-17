@@ -325,10 +325,13 @@ img::-moz-selection {
     to {transform:scale(1)}
 }
 
-#imgModal:hover,
-#imgModal:focus {
+.modal:hover,
+.modal:focus {
     cursor: pointer;
 }
+  .modal img{
+    cursor: auto;
+  }
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
