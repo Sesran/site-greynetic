@@ -231,6 +231,11 @@ img::-moz-selection {
   background-color: #0e0e0e;
   color: white; }
 
+.ecole-section {
+  background-color: #afa7a7;
+  color: white;
+}
+
 .splication {
   width: 300px;
   box-shadow: lightgray 0px 1px 1px;
@@ -248,9 +253,28 @@ img::-moz-selection {
     margin-bottom: 10px;
     font-size: 11pt; }
     .splication ul li {
-      text-align: justify; }
-
+      text-align: justify;
+    
+    }
+.splication.custom{
+  background-color: rgba(255, 255, 255, 0.5);;
+}
 .marge-bot {
   margin-bottom: 25px; }
+
+.group{
+  width: 100%;
+}
+
+.custom_img{
+  padding-top:5%; 
+  height: 225px;
+}
+
+.helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
 
 /*# sourceMappingURL=grayscale.css.map */
