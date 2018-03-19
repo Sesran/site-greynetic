@@ -231,11 +231,6 @@ img::-moz-selection {
   background-color: #0e0e0e;
   color: white; }
 
-.ecole-section {
-  background-color: #afa7a7;
-  color: white;
-}
-
 .splication {
   width: 300px;
   box-shadow: lightgray 0px 1px 1px;
@@ -253,91 +248,92 @@ img::-moz-selection {
     margin-bottom: 10px;
     font-size: 11pt; }
     .splication ul li {
-      text-align: justify;
-    
-    }
-.splication.custom{
-  background-color: rgba(255, 255, 255, 0.5);;
-}
+      text-align: justify; }
+
 .marge-bot {
   margin-bottom: 25px; }
 
-.group{
-  width: 100%;
-}
+.ecole-section {
+  background: linear-gradient(#0e0e0e, white);
+  color: white; }
 
-.custom_img{
-  padding-top:5%; 
-  height: 225px;
-}
+.splication.custom {
+  background-color: rgba(255, 255, 255, 0.5); }
 
-.helper{
+.group {
+  width: 100%; }
+
+.custom_img {
+  padding-top: 5%;
+  height: 225px; }
+
+.helper {
   display: inline-block;
   height: 100%;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-.zoom:hover {opacity: 0.7;}
+.zoom:hover {
+  opacity: 0.7; }
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 50px;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 50px;
+  width: 100%;
+  /* Full width */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */ }
 
 /* Modal Content (Image) */
 .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px; }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px; }
 
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
+  animation-name: zoom;
+  animation-duration: 0.6s; }
 
 @keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
-}
-
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
 .modal:hover,
 .modal:focus {
-    cursor: pointer;
-}
-  .modal img{
-    cursor: auto;
-  }
+  cursor: pointer; }
+
+.modal img {
+  cursor: auto; }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-}
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%; } }
 
 /*# sourceMappingURL=grayscale.css.map */
