@@ -265,6 +265,7 @@ img::-moz-selection {
 
 .custom_img {
   padding-top: 5%;
+  margin-bottom: 5%;
   height: 225px; }
 
 .helper {
