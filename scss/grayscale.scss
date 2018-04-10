@@ -358,8 +358,11 @@ img::-moz-selection {
   background-color: rgba(255, 255, 255, 0.5);;
 }
 
+#logo-navbar {
+  filter: drop-shadow(1px 1px 0px white);
+}
 
-.group{
+.group-photo{
   width: 100%;
 }
 

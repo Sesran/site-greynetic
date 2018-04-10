@@ -260,12 +260,14 @@ img::-moz-selection {
 .splication.custom {
   background-color: rgba(255, 255, 255, 0.5); }
 
+#logo-navbar {
+  filter: drop-shadow(1px 1px 0px white); }
+
 .group-photo {
   width: 100%; }
 
 .custom_img {
   padding-top: 5%;
-  margin-bottom: 5%;
   height: 225px; }
 
 .helper {
